@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from 'react'
 import Link from 'next/link'
 
-export default function page() {
+export default function Page() {
   const [attractions, setAttractions] = useState([]);
   const [loading, setLoading] = useState(true);
 
